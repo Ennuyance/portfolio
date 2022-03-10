@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:black;
+    background-color:white;
+    background-image:url(images/bg.jpg);
+    margin:0;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    width: auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+nav ul li{
+    text-align: center;
+    padding: 20px ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    vertical-align: baseline;
+    border-left: 1px solid white;
+}
+nav ul :first-child{
+    border-left:none!important;
+}
+
+nav ul li:hover{
+    background-color: rgb(255, 255, 255, 0.03);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.intro{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    line-height: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+header{
+    align-items: center; 
+    margin: 20%;
+    margin-top: 100px;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 600 ;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.profile{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 70px!important;
+}
+.inner{
+    border-block : 1px solid
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.accordion {
+    background-color: #eee;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+.kloebo{
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.livy{
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.otazu{
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.etude{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    border-radius: 10%;
+    padding: 50px;
+
+}
+.formation-content{
+    align-items: center; 
+    margin: 20%;
+    margin-top: 10%;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+blockquote{
+    border-left: solid 2px #ffffff;
+    font-style: italic;
+    margin: 0 0 2rem 0;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.dates{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.experience-content{
+    align-items: center; 
+    margin: 10%;
+    margin-top: 100px;
+}
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.job{
+    text-align: center;
+}
+
+.experience-dates{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+
+}
+h5{
+    text-transform: uppercase;
+    font-family:'Source Sans Pro', sans-serif;;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.button{
+    list-style-type: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    height: 2.75rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.75rem;
+    outline: 0;
+    padding: 0 1.25rem 0 1.35rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+.button:hover{
+        background-color: rgb(255, 255, 255, 0.05);
+}
+.box{
+    box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    border-radius: 10%;
+    padding: 50px;
+}
+.skills{
+    box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    border-radius: 5%;
+    padding: 50px;
+}
+.accordion {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-transform: uppercase;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 600;
+
+}
+.accordion:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+.panel{
+    background-color: rgba(255, 255, 255, 0);
+    font-family:'Source Sans Pro', sans-serif;
+}
+.pinterest-graphique{
+    width: 1000px;
+}
+.pinterest-chiffre{
+    width: 700px;
+}
+
+.button_icon{
+    width: 100px;
+}
+.button_cv{
+    list-style-type: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    height: 2.75rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.75rem;
+    outline: 0;
+    padding: 0 1.25rem 0 1.35rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
